@@ -1,0 +1,22 @@
+function doGet(e) { 
+
+var ss = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/1B56QroQEzzP5EldAVTd9GCxBRHqYoETAprnHAz0oE3U/edit#gid=0");
+var sheet = ss.getSheetByName("covid");
+
+  addUser(e,sheet);
+}
+
+function doPost(e) { 
+  var ss = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/1B56QroQEzzP5EldAVTd9GCxBRHqYoETAprnHAz0oE3U/edit#gid=0");
+  var sheet = ss.getSheetByName("covid"); 
+  
+  addUser(e,sheet);
+}
+
+
+function addUser(e,sheet) {
+  var name = e.parameter.name ; 
+  var location = e.parameter.location ;
+
+  sheet.appendRow([name,location]);
+}

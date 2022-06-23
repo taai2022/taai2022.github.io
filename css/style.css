@@ -1,0 +1,102 @@
+
+.tml{
+  border: 2px solid rgb(230,230,230);
+  border-radius: 0 0 20px 20px;
+  padding: 0;
+  margin: 0;
+}
+.tml1{
+  
+  padding: 0;
+  margin: 0;
+}
+header.nav-fixed {
+  width: 100%;
+  position: fixed;
+  transition: 0.3s ease-in-out;
+}
+.padw{
+  padding-top: 30px;
+}
+.nav-van {
+    /*background-color:rgb(18, 1, 37);*/
+    background: #011844;
+    box-shadow: 5px -1px 12px -5px grey;
+}
+.nav-nobg {
+  /*background: #011844;*/
+   background: #02276b00;
+  box-shadow: 5px -1px 12px -5px grey;
+}
+
+#news ul.timeline {
+  width: 100%;
+  list-style-type: none;
+  padding: 5px;
+}
+#news ul.timeline > li {    
+  margin: 0;
+  padding: 0px;
+}
+
+#news p{
+  text-align:start;
+}
+footer .main-footer{	padding: 20px 0;	background: #011844;}
+footer ul{	padding-left: 0;	list-style: none;}
+
+.footer-copyright p {	color: #969696;	margin: 2px 0 0;}
+
+input.MyButton {
+  width: 300px;
+  padding: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 150%;
+  background: #3366cc;
+  color: #fff;
+  border: 1px solid #3366cc;
+  border-radius: 10px;
+}
+input.MyButton:hover {
+  color: #ffff00;
+  background: #000;
+  border: 1px solid #fff;
+}
+
+
+
+.subscribe {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-3d-sub {
+  display: block;
+  margin: auto ;
+  margin-left: 20px;
+  width: 70%;
+  height: 40px;
+  font-family: Helvetica;
+  border-bottom: 5px solid #173814;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: linear-gradient(#838de9,#21205b);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px grey;
+  transition: 150ms ease;
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.btn-3d-sub:hover{
+  border: none;
+  border-bottom: 2px solid steelblue;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(#21205b,#838de9);
+
+}
