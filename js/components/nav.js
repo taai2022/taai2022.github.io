@@ -78,11 +78,9 @@ const nav = `
                   <a class="nav-link dropdown-toggle" href="conference.html" id="navbarDropdown" 
                      data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                   Events & Information</a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <a class="dropdown-item" href="venue.html#Banquet">Banquet</a>
-                     <a class="dropdown-item" href="photos.html">Photos</a>
-                     <a class="dropdown-item" href="venue.html#pro2">Venue & Accommodation </a>
-                     <a target="_blank" class="dropdown-item" href="https://www.inskyhotel.com/portfolio/%e8%81%af%e7%b5%a1%e6%88%91%e5%80%91/">Transportation</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">                     
+                     <a class="dropdown-item" href="venue.html">Banquet & Venue & Accommodation </a>   
+                     <a class="dropdown-item" href="photos.html">Photos</a>                                          
                   </div>
                </li>
             </ul>
