@@ -15,7 +15,7 @@ const nav = `
                      <a class="dropdown-item" href="index.html">Home</a> 
                      <a class="dropdown-item" href="organization.html#comm">Organizing Committee </a>     
                      <a class="dropdown-item" href="porganization.html">Program Committee</a>                     
-                     <a class="dropdown-item" href="latestnews.html">Latest events</a>                     
+                     <a class="dropdown-item disabled" href="latestnews.html">Latest events</a>                     
                   </div>
                </li>
                <li class="nav-item dropdown">
@@ -32,12 +32,12 @@ const nav = `
                   </div>
                </li>
                <li class="nav-item dropdown">                  
-                  <a class="nav-link dropdown-toggle" href="calls.html" id="navbarDropdown" 
+                  <a class="nav-link dropdown-toggle " href="calls.html" id="navbarDropdown" 
                      data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                  Registration</a>            
+                  Registration</a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <a class="dropdown-item" href="accepted.html">Accepted Papers</a>
-                     <a class="dropdown-item" href="registration.html">Registration</a>
+                     <a class="dropdown-item disabled" href="accepted.html">Accepted Papers</a>
+                     <a class="dropdown-item disabled" href="registration.html">Registration</a>
                   </div>
                </li>
                <li class="nav-item dropdown">                  
@@ -45,12 +45,12 @@ const nav = `
                      data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                   Program</a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <a class="dropdown-item" href="program.html">Program-at-a-Glance</a> 
-                     <a class="dropdown-item" href="keynote.html">Keynote Speech</a>
-                     <a class="dropdown-item" href="iprogram.html">International Track</a> 
-                     <a class="dropdown-item" href="dprogram.html">Domestic Track</a>
-                     <a class="dropdown-item" href="poster.html">Poster Sessions</a>
-                     <a class="dropdown-item" href="posterGL.html">Presestation Instructions</a>
+                     <a class="dropdown-item disabled" href="program.html">Program-at-a-Glance</a> 
+                     <a class="dropdown-item disabled" href="keynote.html">Keynote Speech</a>
+                     <a class="dropdown-item disabled" href="iprogram.html">International Track</a> 
+                     <a class="dropdown-item disabled" href="dprogram.html">Domestic Track</a>
+                     <a class="dropdown-item disabled" href="poster.html">Poster Sessions</a>
+                     <a class="dropdown-item disabled" href="posterGL.html">Presestation Instructions</a>
                   </div>
                </li>
                <li class="nav-item dropdown">                  
@@ -58,10 +58,10 @@ const nav = `
                      data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                   Panel & Competition</a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <a class="dropdown-item" href="phd.html">TAAI 2022 PhD/Master Award</a>
-                     <a class="dropdown-item" href="AICUP.html">AI CUP Panel</a>
-                     <a target="_blank" class="dropdown-item" href="https://www.tcga.tw/taai2022/zh_TW/#top">Computer Game Tournaments</a>
-                     <a class="dropdown-item" href="etop.html">智慧計算學門成果發表會</a>
+                     <a class="dropdown-item disabled" href="phd.html">TAAI 2022 PhD/Master Award</a>
+                     <a class="dropdown-item disabled" href="AICUP.html">AI CUP Panel</a>
+                     <a target="_blank" class="dropdown-item disabled" href="https://www.tcga.tw/taai2022/zh_TW/#top">Computer Game Tournaments</a>
+                     <a class="dropdown-item disabled" href="etop.html">智慧計算學門成果發表會</a>
                   </div>
                </li>
                <li class="nav-item dropdown">
@@ -70,8 +70,8 @@ const nav = `
                      data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                   Events & Information</a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">                     
-                     <a class="dropdown-item" href="venue.html">Banquet & Venue & Accommodation </a>   
-                     <a class="dropdown-item" href="photos.html">Photos</a>                                          
+                     <a class="dropdown-item disabled" href="venue.html">Banquet & Venue & Accommodation </a>   
+                     <a class="dropdown-item disabled" href="photos.html">Photos</a>                                          
                   </div>
                </li>
             </ul>
