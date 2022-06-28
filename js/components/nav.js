@@ -1,8 +1,6 @@
 const nav = `
-<nav id="van" class="navbar navbar-expand-lg navbar-dark nav-nobg fixed-top" role="navigation" >
-         <!--TAAI 2022 hosted by cyut *****************************************************TAAI 2022 hosted by cyut -->
-         <a class="navbar-brand" href="index.html">
-         <!-- <img style="border-radius: 2px; padding:2px;width: 200px;background: #011844;margin-right: 30px; border:1px solid wheat; box-shadow: 2px 2px 5px wheat;" src="images/Logo.png" alt="">  -->
+<nav id="van" class="navbar navbar-expand-lg navbar-dark nav-nobg fixed-top" role="navigation" style="font-weight: bold;">         
+         <a class="navbar-brand" href="index.html">         
          </a> 
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
@@ -10,21 +8,17 @@ const nav = `
          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto navbar-right">
                <li class="nav-item dropdown">
-                  <!-- Home -->
                   <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" 
                      data-toggle="dropdown" role="button" aria-haspopup="true"  aria-expanded="false">
                   Home</a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                      <a class="dropdown-item" href="index.html">Home</a> 
                      <a class="dropdown-item" href="organization.html#comm">Organizing Committee </a>     
-                     <a class="dropdown-item" href="porganization.html">Program Committee</a>
-                     <!--  <a class="dropdown-item" href="sponsor.html">Sponsors</a> -->
-                     <a class="dropdown-item" href="latestnews.html">Latest events</a>
-                     <!-- a class="dropdown-item" target="new" href="http://www.taai.org.tw/">TAAI Home</a -->
+                     <a class="dropdown-item" href="porganization.html">Program Committee</a>                     
+                     <a class="dropdown-item" href="latestnews.html">Latest events</a>                     
                   </div>
                </li>
                <li class="nav-item dropdown">
-                  <!-- CFP -->
                   <a class="nav-link dropdown-toggle" href="calls.html" id="navbarDropdown" 
                      data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                   Submission</a>
@@ -37,8 +31,7 @@ const nav = `
                      <a class="dropdown-item" href="imdate.html">Important Dates</a> 
                   </div>
                </li>
-               <li class="nav-item dropdown">
-                  <!-- Registration-->
+               <li class="nav-item dropdown">                  
                   <a class="nav-link dropdown-toggle" href="calls.html" id="navbarDropdown" 
                      data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                   Registration</a>            
@@ -47,8 +40,7 @@ const nav = `
                      <a class="dropdown-item" href="registration.html">Registration</a>
                   </div>
                </li>
-               <li class="nav-item dropdown">
-                  <!-- Program -->
+               <li class="nav-item dropdown">                  
                   <a class="nav-link dropdown-toggle" href="program.html" id="navbarDropdown" 
                      data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                   Program</a>
@@ -61,8 +53,7 @@ const nav = `
                      <a class="dropdown-item" href="posterGL.html">Presestation Instructions</a>
                   </div>
                </li>
-               <li class="nav-item dropdown">
-                  <!-- Program -->
+               <li class="nav-item dropdown">                  
                   <a class="nav-link dropdown-toggle" href="program.html" id="navbarDropdown" 
                      data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                   Panel & Competition</a>

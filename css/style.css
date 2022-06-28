@@ -28,7 +28,8 @@ header.nav-fixed {
 }
 .nav-van {
     /*background-color:rgb(18, 1, 37);*/
-    background: #011844;
+    /* background: #003cac; */
+    background: #1f6bd4;
     box-shadow: 5px -1px 12px -5px grey;
 }
 .nav-nobg {
