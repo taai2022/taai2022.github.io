@@ -1,57 +1,36 @@
 <!DOCTYPE html>
-<html lang="en"> 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" 
-    content="Welcome to the official website of the 26th International Conference on Technologies and Applications of Artificial Intelligence (TAAI 2022)">
-    <meta name="keywords" content="TAAI2022, TAAI, Artificial Intelligence, Conference, TAAI 2022">
-    <title>TAAI 2022</title> 
-    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
-    <link rel=stylesheet type="text/css" href="css/style.css">
- 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="js/custom.js"></script>
-    <script>
-        function resizeIframe(obj) {
-          obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
-        }
-      </script>
-  </head>
-  <body>
-<!-- navigation -->
+<html lang="en">
+   <!-- header -->
+   <script type="text/javascript" charset="UTF-8" src="js/components/header.js"></script>   
+   <body>
+      <!-- navigation -->
       <script src="js/components/nav.js"></script>
-<!--banner image **************************************************************************************************** banner image -->
-    <div id="impadw" class="jumbotron-fluid" style="margin: auto; ">
-        <img id="banim" src="images/73208.jpg" class="img-fluid">	
-    </div>
-<!--below is the content**************************************************************************************below is the content -->
-    <div class="container-fluid">
-      <div class="row">
-<!--below is the main**************************************************************************************below is the main -->       
-        <div   class="col-lg-12 text-center" style="border-bottom: 1px solid darkgrey; ">         
-          <section style="max-width: 90%; margin: auto;" > 
-            <div id="news" >
-            
-                <h1 id="pro2" style="font-weight:bold;text-shadow: 1px 1px 3px silver;"></br>Latest Events</h1>
-                <br>
-                  <iframe class="tml1" width="100%"  src="ltn.html" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
-                </div> 
-            </div>
-          </section>
-        </div>
-
+      <!--banner image **************************************************************************************************** banner image -->
+      <div id="impadw" class="jumbotron-fluid" style="margin: auto; ">
+         <img id="banim" src="images/73208.jpg" class="img-fluid">	
       </div>
-    </div>
-
-
-<!-- footer -->
-<script src="js/components/footer.js"></script>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery-3.4.1.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap-4.4.1.js"></script>
-</body>
+      <!--below is the content**************************************************************************************below is the content -->
+      <div class="container-fluid">
+         <div class="row">
+            <!--below is the main**************************************************************************************below is the main -->       
+            <div   class="col-lg-12 text-center" style="border-bottom: 1px solid darkgrey; ">
+               <section style="max-width: 90%; margin: auto;" >
+                  <div id="news" >
+                     <h1 id="pro2" style="font-weight:bold;text-shadow: 1px 1px 3px silver;"></br>Latest Events</h1>
+                     <br>
+                     <iframe class="tml1" width="100%"  src="ltn.html" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
+                  </div>
+            </div>
+            </section>
+         </div>
+      </div>
+      </div>
+      <!-- footer -->
+      <script type="text/javascript" charset="UTF-8" src="js/components/footer.js"></script>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="js/jquery-3.4.1.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap-4.4.1.js"></script>
+   </body>
 </html>

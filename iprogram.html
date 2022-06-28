@@ -1,86 +1,73 @@
 <!DOCTYPE html>
-<html lang="en"> 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" 
-    content="Welcome to the official website of the 26th International Conference on Technologies and Applications of Artificial Intelligence (TAAI 2022)">
-    <meta name="keywords" content="TAAI2022, TAAI, Artificial Intelligence, Conference, TAAI 2022">
-    <title>TAAI 2022</title> 
-    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
-    <link rel=stylesheet type="text/css" href="css/style.css">
- 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="js/custom.js"></script>
-  
-    <style>
+<html lang="en">
+   <!-- header -->
+   <script type="text/javascript" charset="UTF-8" src="js/components/header.js"></script>   
+   <style>
       .s1{
-        font-weight: bold;
-        text-align: left;
-        font-size: 1.2em;
+      font-weight: bold;
+      text-align: left;
+      font-size: 1.2em;
       }
       .s2{   
-        font-weight: bold;
-        margin-top: 10px;     
-        text-align: left;
-        font-size: 1.1em;
+      font-weight: bold;
+      margin-top: 10px;     
+      text-align: left;
+      font-size: 1.1em;
       }
       .s3{
-        font-weight: normal;   
-        text-align: left;
-        font-size: 0.9em;
+      font-weight: normal;   
+      text-align: left;
+      font-size: 0.9em;
       }
-    </style>
-  </head>
-  <body>
-<!-- navigation -->
+   </style>
+   <body>
+      <!-- navigation -->
       <script src="js/components/nav.js"></script>
-<!--banner image **************************************************************************************************** banner image -->
-    <div id="impadw" class="jumbotron-fluid" style="margin: auto; ">
-        <img id="banim" src="images/73208.jpg" class="img-fluid">	
-    </div>
-<!--below is the content**************************************************************************************below is the content -->
-    <div class="container-fluid">
-      <div class="row">
-        <div   class="col-lg-9 text-center" style="margin: auto;"> 
-          <section id="comm">    
-            <h1 id="pro2" style="font-weight:bold;"></br>Program-at-a-Glance</h1>
-            <script src="js/components/tba.js"></script>
-          </section>
-        </div>
+      <!--banner image **************************************************************************************************** banner image -->
+      <div id="impadw" class="jumbotron-fluid" style="margin: auto; ">
+         <img id="banim" src="images/73208.jpg" class="img-fluid">	
       </div>
-    </div>
-<!-- footer -->
-<script src="js/components/footer.js"></script>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery-3.4.1.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap-4.4.1.js"></script>
-    <script>
-      //先取得網址字串，假設此頁網址為「index.aspx?id=U001&name=GQSM」
-      var url = location.href;
-
-      //再來用去尋找網址列中是否有資料傳遞(QueryString)
-      if (url.indexOf("?") != -1) {
-          var tab1 = "";
-          //在此直接將各自的參數資料切割放進ary中
-          var ary = url.split("?")[1].split("&");
-          //此時ary的內容為：
-          //ary[0] = 'id=U001'，ary[1] = 'name=GQSM'
-
-          //下迴圈去搜尋每個資料參數
-          for (i = 0; i <= ary.length - 1; i++) {
-              //如果資料名稱為id的話那就把他取出來
-
-              if (ary[i].split("=")[0] == "tab1") {
-                  tab1 = ary[i].split("=")[1];
-              }
-          }
-      }
-      // 第一階顯示;
-      $(`#myTab li:eq(${tab1}) a`).tab("show");
-  </script>
-  </body>
+      <!--below is the content**************************************************************************************below is the content -->
+      <div class="container-fluid">
+         <div class="row">
+            <div   class="col-lg-9 text-center" style="margin: auto;">
+               <section id="comm">
+                  <h1 id="pro2" style="font-weight:bold;"></br>Program-at-a-Glance</h1>
+                  <script src="js/components/tbc.js"></script>
+               </section>
+            </div>
+         </div>
+      </div>
+      <!-- footer -->
+      <script type="text/javascript" charset="UTF-8" src="js/components/footer.js"></script>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="js/jquery-3.4.1.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap-4.4.1.js"></script>
+      <script>
+         //先取得網址字串，假設此頁網址為「index.aspx?id=U001&name=GQSM」
+         var url = location.href;
+         
+         //再來用去尋找網址列中是否有資料傳遞(QueryString)
+         if (url.indexOf("?") != -1) {
+             var tab1 = "";
+             //在此直接將各自的參數資料切割放進ary中
+             var ary = url.split("?")[1].split("&");
+             //此時ary的內容為：
+             //ary[0] = 'id=U001'，ary[1] = 'name=GQSM'
+         
+             //下迴圈去搜尋每個資料參數
+             for (i = 0; i <= ary.length - 1; i++) {
+                 //如果資料名稱為id的話那就把他取出來
+         
+                 if (ary[i].split("=")[0] == "tab1") {
+                     tab1 = ary[i].split("=")[1];
+                 }
+             }
+         }
+         // 第一階顯示;
+         $(`#myTab li:eq(${tab1}) a`).tab("show");
+      </script>
+   </body>
 </html>
