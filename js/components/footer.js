@@ -1,36 +1,31 @@
 const footer = `
+<br><br>
 <div id="footer_info_w" class="footer_info_w">
     <div class="footer_info">
     <div class="sp2_area">
         <strong style="line-height:44px;">ORGANIZED BY</strong>
         <ul>
-            <li style="margin-left:30px;"><a href="https://www.kiise.or.kr/academy/main/main.fa" target="_blank"><img src="images/taai1.png"></a></li>
+            <li style="margin-left:30px;"><a href="http://www.taai.org.tw/" target="_blank"><img src="images/agencies/TAAI.png"></a></li>
         </ul>
     </div>
     <div class="sp2_area">
         <strong style="line-height:44px;">CO-ORGANIZED BY</strong>
         <ul>
-            <li><a href="https://www.kisti.re.kr/eng/" target="_blank"><img src="images/工業.png" title=""></a></li>
-            <li>
-                <img src="images/citi-site-title.png" usemap="#Map" border="0">
-                <map name="Map" id="Map">
-                <area shape="rect" coords="0,2,136,28" href="https://www.navercorp.com/en" target="_blank">
-                <area shape="rect" coords="173,1,250,28" href="https://linecorp.com/en/" target="_blank">
-                </map>
-            </li>
+            <li><a href="https://aidea-web.tw/" target="_blank"><img src="images/agencies/ITRI.png" title=""></a></li>
+            <li><a href="https://www.citi.sinica.edu.tw/" target="_blank"><img src="images/agencies/CITI.jpeg" title=""></a></li>            
         </ul>
     </div>
     <div class="sp2_area pb30">
         <strong style="line-height:50px;">ADVISED BY</strong>
         <ul>
-            <li><a href="https://visitkorea.or.kr/" target="_blank"><img src="images/most.png"></a></li>
+            <li><a href="https://www.most.gov.tw/" target="_blank"><img src="images/agencies/most.png"></a></li>
         </ul>
     </div>
     <div class="sp2_area pb30">
         <strong style="line-height:50px;">SPONSORS</strong>
         <ul>
-            <li><a href="https://visitkorea.or.kr/" target="_blank"><img src="images/wavenet.png"></a></li>
-            <li><a href="https://crowncity.kr/cvb/ko/main/main.do" target="_blank"><img src="images/kdan.png"></a></li>
+            <li><a href="https://www.wavenet.com.tw/" target="_blank"><img src="images/agencies/wavenet.png"></a></li>
+            <li><a href="https://www.kdanmobile.com/zh-tw?utm_source=PR&utm_campaign=PR_TAAI_sponsor2021&utm_medium=TAAI" target="_blank"><img src="images/agencies/kdan.png"></a></li>
         </ul>
     </div>
     </div>
