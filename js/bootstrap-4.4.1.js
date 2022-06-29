@@ -3840,9 +3840,9 @@
         }
 
         if (target) {
-          var targetBCR = target.getBoundingClientRect();
+          var targetbaR = target.getBoundingClientRect();
 
-          if (targetBCR.width || targetBCR.height) {
+          if (targetbaR.width || targetbaR.height) {
             // TODO (fat): remove sketch reliance on jQuery position/offset
             return [$(target)[offsetMethod]().top + offsetBase, targetSelector];
           }
