@@ -6,10 +6,26 @@ HclearHclearHclearHclearHclearHclearHclearHclearHclearHclear.m_box.sns>div.m_box
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
 
 
-html {overflow-y:scroll}
-body {margin:0;padding:0;font-size:1em;font-family:'Noto Sans TC','Nanum Gothic', sans-serif; background:#fff; color: #333; font-weight: 300;}
+html {
+  overflow-y:scroll
+}
 
-html, h1, h2, h3, h4, h5, h6, form, fieldset, img {margin:0;padding:0;border:0}
+body {
+  margin:0;
+  padding:0;
+  font-size:1em;
+  font-family:'Noto Sans TC','Nanum Gothic', sans-serif; 
+  background:#fff; 
+  color: #333; 
+  font-weight: 300;
+}
+
+html, h1, h2, h3, h4, h5, h6, form, fieldset, img {
+  margin:0;
+  padding:0;
+  border:0
+}
+
 h1, h2, h3, h4, h5, h6 {font-family:'Noto Sans TC','Nanum Gothic', sans-serif;}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block}
 
@@ -38,7 +54,15 @@ button {cursor:pointer}
 
 textarea, select {font-family:'Noto Sans TC','Nanum Gothic', sans-serif;font-size:1em}
 select {margin:0}
-p {margin:0;padding:0;word-break:break-word}
+p {
+  margin:0;
+  padding:0;
+  -moz-hyphens:auto;
+  -ms-hyphens:auto;
+  -webkit-hyphens:auto;
+  hyphens:auto;
+  word-wrap:break-word;
+}
 hr {display:none}
 pre {overflow-x:scroll;font-size:1.1em}
 /* a {color:#000;text-decoration:none} */
@@ -365,7 +389,7 @@ header > h1{display: none;}
 .wing ul li .quickTit span{display:block; font-weight:400;font-size:15px;line-height:1.2;letter-spacing:-0.1px;color:#fff;margin-top:3px;}
 
 /*footer_info*/
-.footer_info{width:1220px; margin:auto;}
+.footer_info{width:750px; margin:auto;}
 .org_area,.sp_area,.sp2_area{display:flex;}
 .org_area ul,.sp_area ul,.sp2_area ul{display:flex; flex-wrap: wrap; align-items: baseline;}
 .sp_area {transform:translateX(50px);}
@@ -387,11 +411,7 @@ header > h1{display: none;}
 .footer_txtbg{background-color:#f8f9fa; padding:20px;}
 .footer_txt{width:1220px; margin:0 auto; text-align:left;}
 
-
-
-
-
-
-
-
-
+.col-lg-9 {
+  max-width: 750px;
+  margin: auto;
+}

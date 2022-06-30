@@ -5,6 +5,7 @@
     
     
 }
+
 @media screen and (max-width: 1200px){
 	#gnb_all{opacity: 1;}
     #gnb .gnb_1dli{display: none;}
@@ -161,7 +162,7 @@
 
 @media screen and (max-width: 1200px) {
 	/*footer_info*/
-	.footer_info{width:850px; margin:auto;}
+	.footer_info{width:750px; margin:auto;}
 	.sp2_area ul li:nth-of-type(4) {margin-left:60px;}
 	.sp2_area ul li:nth-of-type(6) {margin-left:0px;}
 	.sp2_area ul li:nth-of-type(7) {margin-left:0px;}
