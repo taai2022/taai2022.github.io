@@ -33,6 +33,10 @@ ul, dl,dt,dd {margin:0;padding:0;list-style:none}
 .circle-list-style {
   list-style: circle
 }
+ul.square {
+  list-style: square inside;
+}
+
 .ul-style2 ul li > ul{list-style: circle; padding-left: 20px;} ul li > ul li{margin: 5px 0;}
 .ul-style1{list-style: none; padding: 0; margin: 0;}
 .ul-style1 > li{position: relative; padding-left: 20px; margin: 9px 0;}
