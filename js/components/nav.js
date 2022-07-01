@@ -15,7 +15,7 @@ const nav = `
                <a class="dropdown-item" href="index.html">Home</a> 
                <a class="dropdown-item" href="organization.html#comm">Organizing Committee </a>     
                <a class="dropdown-item" href="porganization.html">Program Committee</a>                     
-               <a class="dropdown-item disabled" href="latestnews.html">Latest events</a>                     
+               <a class="dropdown-item" href="latestnews.html">Latest events</a>                     
             </div>
          </li>
          <li class="nav-item dropdown">
