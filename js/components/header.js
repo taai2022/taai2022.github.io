@@ -3,7 +3,7 @@ const header = `<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Welcome to the official website of the 26th International Conference on Technologies and Applications of Artificial Intelligence (TAAI 2022)">
+    <meta name="description" content="Welcome to the official website of the 27th International Conference on Technologies and Applications of Artificial Intelligence (TAAI 2022)">
     <meta name="keywords" content="TAAI2022, TAAI, Artificial Intelligence, Conference, TAAI 2022">
     <title>TAAI 2022</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
