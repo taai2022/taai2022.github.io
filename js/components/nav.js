@@ -70,7 +70,7 @@ const nav = `
                data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             Events & Information</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">                     
-               <a class="dropdown-item disabled" href="venue.html">Banquet & Venue & Accommodation </a>   
+               <a class="dropdown-item" href="venue.html">Banquet & Venue & Accommodation </a>   
                <a class="dropdown-item disabled" href="photos.html">Photos</a>                                          
             </div>
          </li>
