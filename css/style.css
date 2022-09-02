@@ -26,10 +26,8 @@ header.nav-fixed {
 .padw{
   padding-top: 30px;
 }
-.nav-van {
-    /*background-color:rgb(18, 1, 37);*/
-    /* background: #003cac; */
-    background: #1f6bd4;
+.nav-van {    
+    background: #46727d;
     box-shadow: 5px -1px 12px -5px grey;
 }
 .nav-nobg {
