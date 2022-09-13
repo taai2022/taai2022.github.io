@@ -24,7 +24,7 @@ const nav = `
             Submission</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                <a class="dropdown-item" href="cfp.html">Call for Papers (International Track)</a> 
-               <a class="dropdown-item" href="cfss.html">Call for Special Session (International Track)</a> 
+               <a class="dropdown-item" href="cfss.html">Call for Papers (International Special Session)</a> 
                <a class="dropdown-item" href="dcfp.html">論文徵稿(Domestic Track)</a>
                <a class="dropdown-item" href="cfhss.html">Special Session for High School Students </a>
                <a class="dropdown-item" href="call_sponsor.html">Call for Sponsor</a>
