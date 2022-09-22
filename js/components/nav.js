@@ -60,7 +60,7 @@ const nav = `
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                <a class="dropdown-item disabled" href="phd.html">TAAI 2022 PhD/Master Award</a>
                <a class="dropdown-item disabled" href="AICUP.html">AI CUP Panel</a>
-               <a target="_blank" class="dropdown-item disabled" href="https://www.tcga.tw/taai2022/zh_TW/#top">Computer Game Tournaments</a>
+               <a target="_blank" class="dropdown-item" href="https://www.tcga.tw/taai2022/zh_TW/">Computer Game Tournaments</a>
                <a class="dropdown-item disabled" href="etop.html">智慧計算學門成果發表會</a>
             </div>
          </li>
