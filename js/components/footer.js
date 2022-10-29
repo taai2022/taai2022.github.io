@@ -5,6 +5,7 @@ const footer = `
     <div class="sp2_area">
         <strong style="line-height:44px;">ORGANIZED BY</strong>
         <ul>
+            <li style="margin-left:30px;"><a href="http://www.ncku.edu.tw/" target="_blank"><img src="images/agencies/NCKU.png"></a></li>
             <li style="margin-left:30px;"><a href="http://www.taai.org.tw/" target="_blank"><img src="images/agencies/TAAI.png"></a></li>
         </ul>
     </div>
