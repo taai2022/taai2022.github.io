@@ -36,8 +36,9 @@ const nav = `
                data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             Registration</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+               <a class="dropdown-item" href="registration.html">Registration</a>
                <a class="dropdown-item disabled" href="accepted.html">Accepted Papers</a>
-               <a class="dropdown-item disabled" href="registration.html">Registration</a>
+               
             </div>
          </li>
          <li class="nav-item dropdown">                  
