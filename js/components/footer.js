@@ -5,7 +5,7 @@ const footer = `
     <div class="sp2_area">
         <strong style="line-height:44px;">ORGANIZED BY</strong>
         <ul>
-            <li style="margin-left:30px;"><a href="http://www.ncku.edu.tw/" target="_blank"><img src="images/agencies/NCKU.png"></a></li>
+            <li style="margin-left:30px;"><a href="http://www.ncku.edu.tw/" target="_blank"><img src="images/agencies/NCKU.jpg"></a></li>
             <li style="margin-left:30px;"><a href="http://www.taai.org.tw/" target="_blank"><img src="images/agencies/TAAI.png"></a></li>
         </ul>
     </div>
@@ -19,7 +19,7 @@ const footer = `
     <div class="sp2_area pb30">
         <strong style="line-height:50px;">ADVISED BY</strong>
         <ul>
-            <li><a href="https://www.most.gov.tw/" target="_blank"><img src="images/agencies/most.png"></a></li>
+            <li><a href="https://www.nstc.gov.tw//" target="_blank"><img src="images/agencies/NSTC.png"></a></li>
         </ul>
     </div>
     <div class="sp2_area pb30">
