@@ -31,6 +31,7 @@ const footer = `
     <div class="sp2_area pb30">
         <strong style="line-height:50px;">GOLD SPONSORS</strong>
         <ul>
+            <li><a href="https://www.esunbank.com.tw/bank/personal" target="_blank"><img src="images/agencies/esan.png"></a></li>
             <li><a href="https://www.wavenet.com.tw/" target="_blank"><img src="images/agencies/wavenet.png"></a></li>
             <li><a href="https://www.kdanmobile.com/zh-tw?utm_source=PR&utm_campaign=PR_TAAI_sponsor2021&utm_medium=TAAI" target="_blank"><img src="images/agencies/kdan.png"></a></li>
         </ul>
