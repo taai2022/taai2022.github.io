@@ -51,6 +51,7 @@ const nav = `
                <a class="dropdown-item disabled" href="iprogram.html">International Track</a> 
                <a class="dropdown-item disabled" href="dprogram.html">Domestic Track</a>
                <a class="dropdown-item disabled" href="poster.html">Poster Sessions</a>
+               <a class="dropdown-item disabled" href="poster.html">High School Sessions</a>
                <a class="dropdown-item disabled" href="posterGL.html">Presestation Instructions</a>
             </div>
          </li>
@@ -59,8 +60,9 @@ const nav = `
                data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             Panel & Competition</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+               <a class="dropdown-item disabled" href="phd.html">數位轉型</a>
                <a class="dropdown-item disabled" href="phd.html">TAAI 2022 PhD/Master Award</a>
-               <a class="dropdown-item disabled" href="AICUP.html">AI CUP Panel</a>
+               <a class="dropdown-item disabled" href="AICUP.html">AI Young Woman Star</a>
                <a target="_blank" class="dropdown-item" href="https://www.tcga.tw/taai2022/zh_TW/">Computer Game Tournaments</a>
                <a class="dropdown-item disabled" href="etop.html">智慧計算學門成果發表會</a>
             </div>
