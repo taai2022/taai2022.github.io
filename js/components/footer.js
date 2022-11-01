@@ -42,6 +42,10 @@ const footer = `
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
     ©2022 The 27th International Conference on Technologies and Applications of Artificial Intelligence.            
     </div>
+    <br>
+     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+     Contact Mail: ikm.ncku@gmail.com
+     </div>
 </footer>
 
 `
