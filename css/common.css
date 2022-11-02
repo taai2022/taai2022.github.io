@@ -13,11 +13,11 @@ html {
 body {
   margin:0;
   padding:0;
-  font-size:1em;
+  font-size:1rem;
   font-family:'Noto Sans TC','Nanum Gothic', sans-serif; 
   background:#fff; 
-  color: #333; 
-  font-weight: 300;
+  color: #212529; 
+  font-weight: 400;
 }
 
 html, h1, h2, h3, h4, h5, h6, form, fieldset, img {
