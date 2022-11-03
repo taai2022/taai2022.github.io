@@ -37,7 +37,7 @@ const nav = `
             Registration</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                <a class="dropdown-item" href="registration.html">Registration</a>
-               <a class="dropdown-item disabled" href="accepted.html">Accepted Papers</a>
+               <a class="dropdown-item" href="accepted.html">Accepted Papers</a>
                
             </div>
          </li>
