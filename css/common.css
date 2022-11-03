@@ -20,12 +20,6 @@ body {
   font-weight: 300;
 }
 
-html, h1, h2, h3, h4, h5, h6, form, fieldset, img {
-  margin:0;
-  padding:0;
-  border:0
-}
-
 h1, h2, h3, h4, h5, h6 {font-family:'Noto Sans TC','Nanum Gothic', sans-serif;}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block}
 
