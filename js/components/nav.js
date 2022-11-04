@@ -47,7 +47,7 @@ const nav = `
             Program</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                <a class="dropdown-item disabled" href="program.html">Program-at-a-Glance</a> 
-               <a class="dropdown-item disabled" href="keynote.html">Keynote Speech</a>
+               <a class="dropdown-item" href="keynote.html">Keynote Speech</a>
                <a class="dropdown-item disabled" href="iprogram.html">International Track</a> 
                <a class="dropdown-item disabled" href="dprogram.html">Domestic Track</a>
                <a class="dropdown-item disabled" href="poster.html">Poster Sessions</a>
