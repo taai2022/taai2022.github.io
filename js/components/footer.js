@@ -12,10 +12,10 @@ const footer = `
     <div class="sp2_area">
         <strong style="line-height:44px;">CO-ORGANIZED BY</strong>
         <ul>
-            <li><a href="https://aidea-web.tw/" target="_blank"><img src="images/agencies/ITRI.png" title=""></a></li>
-            <li><a href="https://www.iis.sinica.edu.tw/" target="_blank"><img src="images/agencies/iis.png" title=""></a></li> 
-            <li><a href="https://www.citi.sinica.edu.tw/" target="_blank"><img src="images/agencies/CITI.jpeg" title=""></a></li> 
-            <li><a href="https://etop.org.tw/" target="_blank"><img src="images/agencies/etop.png" title=""></a></li> 
+            <li><a href="https://aidea-web.tw/" target="_blank"><img src="images/agencies/ITRI.png" title=""></a></li><br>
+            <li><a href="https://www.iis.sinica.edu.tw/" target="_blank"><img src="images/agencies/iis.png" title=""></a></li><br> 
+            <li><a href="https://www.citi.sinica.edu.tw/" target="_blank"><img src="images/agencies/CITI.jpeg" title=""></a></li><br> 
+            <li><a href="https://etop.org.tw/" target="_blank"><img src="images/agencies/etop.png" title=""></a></li><br> 
         </ul>
     </div>
     <div class="sp2_area pb30">
@@ -33,9 +33,9 @@ const footer = `
     <div class="sp2_area pb30">
         <strong style="line-height:50px;">GOLD SPONSORS</strong>
         <ul>
-            <li><a href="https://www.esunbank.com.tw/bank/personal" target="_blank"><img src="images/agencies/esan.png"></a></li>
-            <li><a href="https://www.wavenet.com.tw/" target="_blank"><img src="images/agencies/wavenet.png"></a></li>
-            <li><a href="https://www.kdanmobile.com/zh-tw?utm_source=PR&utm_campaign=PR_TAAI_sponsor2021&utm_medium=TAAI" target="_blank"><img src="images/agencies/kdan.png"></a></li>
+            <li><a href="https://www.esunbank.com.tw/bank/personal" target="_blank"><img src="images/agencies/esan.png"></a></li><br>
+            <li><a href="https://www.wavenet.com.tw/" target="_blank"><img src="images/agencies/wavenet.png"></a></li><br>
+            <li><a href="https://www.kdanmobile.com/zh-tw?utm_source=PR&utm_campaign=PR_TAAI_sponsor2021&utm_medium=TAAI" target="_blank"><img src="images/agencies/kdan.png"></a></li><br>
         </ul>
     </div>
     </div>
