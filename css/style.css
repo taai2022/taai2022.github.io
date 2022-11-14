@@ -29,9 +29,11 @@ header.nav-fixed {
 .nav-van {    
     background: #46727d;
     box-shadow: 5px -1px 12px -5px grey;
+    -webkit-appearance: none;
 }
 .nav-nobg {
   box-shadow: 5px -1px 12px -5px grey;
+  -webkit-appearance: none;
 }
 
 #news ul.timeline {
