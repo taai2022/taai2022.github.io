@@ -387,7 +387,7 @@ header > h1{display: none;}
 .wing ul li .quickTit span{display:block; font-weight:400;font-size:15px;line-height:1.2;letter-spacing:-0.1px;color:#fff;margin-top:3px;}
 
 /*footer_info*/
-.footer_info{width:750px; margin:auto;}
+.footer_info{width:1088px; margin:auto;}
 .org_area,.sp_area,.sp2_area{display:flex;}
 .org_area ul,.sp_area ul,.sp2_area ul{display:flex; flex-wrap: wrap; align-items: baseline;}
 .sp_area {transform:translateX(50px);}
