@@ -64,7 +64,7 @@ const nav = `
                <a class="dropdown-item disabled" href="phd.html">TAAI 2022 PhD/Master Award</a>
                <a class="dropdown-item disabled" href="AICUP.html">AI Young Woman Star</a>
                <a target="_blank" class="dropdown-item" href="https://www.tcga.tw/taai2022/zh_TW/">Computer Game Tournaments</a>
-               <a class="dropdown-item disabled" href="etop.html">智慧計算學門成果發表會</a>
+               <a target="_blank" class="dropdown-item" href="http://site.etop.org.tw/2022/icp/index.php?c=msg14211&m=msg_detail_layout&d=msg&id=74">智慧計算學門成果發表會</a>
             </div>
          </li>
          <li class="nav-item dropdown">
