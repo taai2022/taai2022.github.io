@@ -387,7 +387,7 @@ header > h1{display: none;}
 .wing ul li .quickTit span{display:block; font-weight:400;font-size:15px;line-height:1.2;letter-spacing:-0.1px;color:#fff;margin-top:3px;}
 
 /*footer_info*/
-.footer_info{width:1088px; margin:auto;}
+.footer_info{margin:auto;}
 .org_area,.sp_area,.sp2_area{display:flex;}
 .org_area ul,.sp_area ul,.sp2_area ul{display:flex; flex-wrap: wrap; align-items: baseline;}
 .sp_area {transform:translateX(50px);}
@@ -395,7 +395,7 @@ header > h1{display: none;}
 .org_area ul li a,.sp_area ul li a{display: block;}
 .org_area ul li,.sp_area ul li,.sp2_area ul li{margin-right:25px; margin-bottom:10px;}
 .org_area ul li:first-of-type,.sp_area ul li:first-of-type{margin-left:25px;}
-.sp2_area ul li:first-of-type {margin-left:60px; margin-rigth:18px;}
+.sp2_area ul li:first-of-type {margin-left:60px;}
 .sp2_area ul li:nth-of-type(7) {margin-left:60px;}
 .sp2_area ul li:nth-of-type(14) {margin-left:60px;}
 .sp2_area ul li:nth-of-type(19) {margin-left:60px;}
