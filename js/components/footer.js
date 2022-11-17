@@ -37,6 +37,7 @@ const footer = `
             <li><a href="https://www.wavenet.com.tw/" target="_blank"><img src="images/agencies/wavenet.png"></a></li><br>
             <li><a href="https://www.kdanmobile.com/zh-tw?utm_source=PR&utm_campaign=PR_TAAI_sponsor2021&utm_medium=TAAI" target="_blank"><img src="images/agencies/kdan_logoa_4c_rgb_0.png"></a></li><br>
 			<li><a href="https://tws.twcc.ai/" target="_blank"><img src="images/agencies/TWS-Logo.png"></a></li><br>
+			<li><a href="https://www.appier.com/zh-tw/" target="_blank"><img src="images/agencies/Appier-logo_blue.png"></a></li><br>
         </ul>
     </div>
     </div>
