@@ -46,12 +46,11 @@ const nav = `
                data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             Program</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-               <a class="dropdown-item" href="program.html">Program-at-a-Glance</a> 
+               <a class="dropdown-item disabled" href="program.html">Program-at-a-Glance</a> 
                <a class="dropdown-item" href="keynote.html">Keynote Speech</a>
                <a class="dropdown-item disabled" href="iprogram.html">International Track</a> 
                <a class="dropdown-item disabled" href="dprogram.html">Domestic Track</a>
-               <a class="dropdown-item disabled" href="poster.html">Poster Sessions</a>
-               <a class="dropdown-item disabled" href="poster.html">High School Sessions</a>
+               <a class="dropdown-item disabled" href="hprogram.html">High School Sessions</a>
                <a class="dropdown-item disabled" href="posterGL.html">Presestation Instructions</a>
             </div>
          </li>
