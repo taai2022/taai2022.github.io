@@ -389,12 +389,13 @@ header > h1{display: none;}
 /*footer_info*/
 .footer_info{margin:auto;}
 .org_area,.sp_area,.sp2_area{display:flex;}
-.org_area ul,.sp_area ul,.sp2_area ul{display:flex; flex-wrap: wrap; align-items: baseline; margin-left: 30px;}
+.org_area ul,.sp_area ul,.sp2_area ul{display:flex; flex-wrap: wrap; align-items: baseline;}
 .sp_area {transform:translateX(50px);}
 .sp_area ul li{margin-right:5px;}
 .org_area ul li a,.sp_area ul li a{display: block;}
 .org_area ul li,.sp_area ul li,.sp2_area ul li{margin-right:25px; margin-bottom:10px;}
 .org_area ul li:first-of-type,.sp_area ul li:first-of-type{margin-left:25px;}
+.sp2_area ul li:first-of-type {margin-left:60px;}
 .sp2_area ul li:nth-of-type(7) {margin-left:60px;}
 .sp2_area ul li:nth-of-type(14) {margin-left:60px;}
 .sp2_area ul li:nth-of-type(19) {margin-left:60px;}
@@ -411,4 +412,25 @@ header > h1{display: none;}
 .col-lg-9 {
   max-width: 750px;
   margin: auto;
+}
+
+
+.i_container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.i_responsive {
+  margin:auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 90%;
+  height: 100%;
 }
