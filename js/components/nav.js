@@ -51,7 +51,7 @@ const nav = `
                <a class="dropdown-item" href="iprogram.html">International Track</a> 
                <a class="dropdown-item" href="dprogram.html">Domestic Track</a>
                <a class="dropdown-item" href="hprogram.html">High School Sessions</a>
-               <a class="dropdown-item disabled" href="posterGL.html">Presestation Instructions</a>
+               <a class="dropdown-item" href="posterGL.html">Presestation Instructions</a>
             </div>
          </li>
          <li class="nav-item dropdown">                  
@@ -60,7 +60,7 @@ const nav = `
             Panel & Competition</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                <a class="dropdown-item disabled" href="phd.html">數位轉型</a>
-               <a class="dropdown-item disabled" href="phd.html">TAAI 2022 PhD/Master Award</a>
+               <a class="dropdown-item" href="phd.html">TAAI 2022 PhD/Master Award</a>
                <a class="dropdown-item disabled" href="AICUP.html">AI Young Woman Star</a>
                <a target="_blank" class="dropdown-item" href="https://www.tcga.tw/taai2022/zh_TW/">Computer Game Tournaments</a>
                <a target="_blank" class="dropdown-item" href="http://site.etop.org.tw/2022/icp/index.php?c=msg14211&m=msg_detail_layout&d=msg&id=74">智慧計算學門成果發表會</a>
