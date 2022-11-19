@@ -59,7 +59,7 @@ const nav = `
                data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             Panel & Competition</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-               <a class="dropdown-item disabled" href="phd.html">數位轉型座談會</a>
+               <a class="dropdown-item disabled" href=".html">數位轉型座談會</a>
                <a class="dropdown-item" href="phd.html">TAAI 2022 PhD/Master Award</a>
                <a class="dropdown-item disabled" href="AICUP.html">Young Woman Rising Star in AI</a>
                <a target="_blank" class="dropdown-item" href="https://www.tcga.tw/taai2022/zh_TW/">Computer Game Tournaments</a>
