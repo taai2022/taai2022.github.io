@@ -61,7 +61,7 @@ const nav = `
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                <a class="dropdown-item disabled" href="phd.html">數位轉型</a>
                <a class="dropdown-item" href="phd.html">TAAI 2022 PhD/Master Award</a>
-               <a class="dropdown-item disabled" href="AICUP.html">AI Young Woman Star</a>
+               <a class="dropdown-item disabled" href="AICUP.html">Young Woman Rising Star in AI</a>
                <a target="_blank" class="dropdown-item" href="https://www.tcga.tw/taai2022/zh_TW/">Computer Game Tournaments</a>
                <a target="_blank" class="dropdown-item" href="http://site.etop.org.tw/2022/icp/index.php?c=msg14211&m=msg_detail_layout&d=msg&id=74">智慧計算學門成果發表會</a>
             </div>
