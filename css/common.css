@@ -388,7 +388,7 @@ header > h1{display: none;}
 
 /*footer_info*/
 .footer_info{margin:auto;}
-.org_area,.sp_area,.sp2_area{margin-bottom: 30px;}
+.org_area,.sp_area,.sp2_area{margin-bottom: 20px;}
 .org_area ul,.sp_area ul,.sp2_area ul{display:flex; flex-wrap: wrap; align-items: baseline;}
 .sp_area {transform:translateX(50px);}
 .sp_area ul li{margin-right:5px;}
