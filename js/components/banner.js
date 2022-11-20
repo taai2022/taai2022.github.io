@@ -1,4 +1,4 @@
-const mobile_img = 'taai2022banner.png'
+const mobile_img = 'taai2022banner_2.jpg'
 const img = 'taai2022banner.jpg'
 const banner = `
 <div id="impadw" class="jumbotron-fluid" style="margin: auto; ">
