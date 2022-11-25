@@ -15,6 +15,7 @@ const footer = `
             <li><a href="https://www.iis.sinica.edu.tw/" target="_blank"><img src="images/agencies/iis.png" title=""></a></li><br/> 
             <li><a href="https://www.citi.sinica.edu.tw/" target="_blank"><img src="images/agencies/CITI.jpeg" title=""></a></li><br/> 
             <li><a href="https://etop.org.tw/" target="_blank"><img src="images/agencies/etop.png" title=""></a></li><br/> 
+	    <li><a href="https://www.itsa.org.tw/itsa/index.php" target="_blank"><img src="images/agencies/itsa_banners.png" title=""></a></li><br/> 
         </ul>
     </div>
     <div class="sp2_area">
